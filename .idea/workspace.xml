@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15c8f4aa-1cd1-44c4-99dd-4cb8499f0dce" name="Changes" comment="criacao do Testmap e testando mapOf">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rmlo/collections/TesteColecoesMutaveis.kt" afterDir="false" />
+    <list default="true" id="15c8f4aa-1cd1-44c4-99dd-4cb8499f0dce" name="Changes" comment="criacao de um repositorio para testa as listasMutaveisMap e teste feitos.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rmlo/collections/FuncoesEstendidas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rmlo/collections/TesteFuncoesEstendidas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -40,14 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TesteColecoesMutaveisKt">
-    <configuration name="TestListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TestListKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.TesteFuncoesEstendidasKt">
     <configuration name="TestMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rmlo.collections.TestMapKt" />
       <module name="consoleApp" />
@@ -69,8 +63,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteOperacoesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TesteOperacoesKt" />
+    <configuration name="TesteFuncoesEstendidasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TesteFuncoesEstendidasKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMutavelMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TesteMutavelMapKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteFuncoesEstendidasKt" />
+        <item itemvalue="Kotlin.TesteMutavelMapKt" />
         <item itemvalue="Kotlin.TesteColecoesMutaveisKt" />
         <item itemvalue="Kotlin.TestMapKt" />
         <item itemvalue="Kotlin.TestSetKt" />
-        <item itemvalue="Kotlin.TestListKt" />
-        <item itemvalue="Kotlin.TesteOperacoesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657825521556</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="criacao do Teste de colecoes mutaveis. aplicando mutablelistof e mutablesetof e suas interacoes">
+      <created>1657826602443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657826602443</updated>
+    </task>
+    <task id="LOCAL-00012" summary="..">
+      <created>1657826641370</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657826641370</updated>
+    </task>
+    <task id="LOCAL-00013" summary="criacao de um repositorio para testa as listasMutaveisMap e teste feitos.">
+      <created>1657828048987</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657828048987</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +229,9 @@
     <MESSAGE value="Atualizado o TestList removendo o data class e o inserindo numa dataclass separada. Criacao do TestSet onde foi testado a uniao dos sets, extracao e intersecao." />
     <MESSAGE value="Atualizado o TestList removendo o data class." />
     <MESSAGE value="criacao do Testmap e testando mapOf" />
-    <option name="LAST_COMMIT_MESSAGE" value="criacao do Testmap e testando mapOf" />
+    <MESSAGE value="criacao do Teste de colecoes mutaveis. aplicando mutablelistof e mutablesetof e suas interacoes" />
+    <MESSAGE value=".." />
+    <MESSAGE value="criacao de um repositorio para testa as listasMutaveisMap e teste feitos." />
+    <option name="LAST_COMMIT_MESSAGE" value="criacao de um repositorio para testa as listasMutaveisMap e teste feitos." />
   </component>
 </project>
