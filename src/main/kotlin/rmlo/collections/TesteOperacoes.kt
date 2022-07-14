@@ -15,4 +15,11 @@ fun main() {
     println("----------")
     buscaDeSalario.forEach{println(it)}
 
+    println("----------")
+    println(salarios.count { it in 1700.0..4500.0 })
+    println("----------")
+    println(salarios.find { it == 1500.0 })
+    println("----------")
+    println(salarios.any { it == 1500.0 })
+
 }
