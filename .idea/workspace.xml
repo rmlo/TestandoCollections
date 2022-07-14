@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15c8f4aa-1cd1-44c4-99dd-4cb8499f0dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rmlo/collections/TestIntArray.kt" afterDir="false" />
+    <list default="true" id="15c8f4aa-1cd1-44c4-99dd-4cb8499f0dce" name="Changes" comment="criacao do Testmap e testando mapOf">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rmlo/collections/TesteColecoesMutaveis.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -42,9 +40,37 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="TestIntArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TestIntArrayKt" />
+  <component name="RunManager" selected="Kotlin.TesteColecoesMutaveisKt">
+    <configuration name="TestListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TestListKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TestMapKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TestSetKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteColecoesMutaveisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TesteColecoesMutaveisKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteOperacoesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rmlo.collections.TesteOperacoesKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,7 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TestIntArrayKt" />
+        <item itemvalue="Kotlin.TesteColecoesMutaveisKt" />
+        <item itemvalue="Kotlin.TestMapKt" />
+        <item itemvalue="Kotlin.TestSetKt" />
+        <item itemvalue="Kotlin.TestListKt" />
+        <item itemvalue="Kotlin.TesteOperacoesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +106,77 @@
       <option name="presentableId" value="Default" />
       <updated>1657811261474</updated>
     </task>
+    <task id="LOCAL-00001" summary="Testando Collections">
+      <created>1657813093425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657813093425</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testando IntArrayOF">
+      <created>1657813688079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657813688079</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Testando arrayOf String">
+      <created>1657814288312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657814288312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Testando doublearrayOf">
+      <created>1657815001316</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657815001316</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Testando Arrays max, mix e average">
+      <created>1657820630105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657820630105</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testando operacoes com filter, count, find e any">
+      <created>1657821546320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657821546320</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Testando ListOf. Foi criado uma data class e foi feito um forEach e um find para busca de funcionarios.">
+      <created>1657822727680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657822727680</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Atualizado o TestList removendo o data class e o inserindo numa dataclass separada. Criacao do TestSet onde foi testado a uniao dos sets, extracao e intersecao.">
+      <created>1657824771745</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657824771745</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Atualizado o TestList removendo o data class.">
+      <created>1657824938932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657824938932</updated>
+    </task>
+    <task id="LOCAL-00010" summary="criacao do Testmap e testando mapOf">
+      <created>1657825521556</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657825521556</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,10 +184,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testando Collections" />
+    <MESSAGE value="Testando IntArrayOF" />
+    <MESSAGE value="Testando arrayOf String" />
+    <MESSAGE value="Testando doublearrayOf" />
+    <MESSAGE value="Testando Arrays max, mix e average" />
+    <MESSAGE value="Testando operacoes com filter, count, find e any" />
+    <MESSAGE value="Testando ListOf. Foi criado uma data class e foi feito um forEach e um find para busca de funcionarios." />
+    <MESSAGE value="Atualizado o TestList removendo o data class e o inserindo numa dataclass separada. Criacao do TestSet onde foi testado a uniao dos sets, extracao e intersecao." />
+    <MESSAGE value="Atualizado o TestList removendo o data class." />
+    <MESSAGE value="criacao do Testmap e testando mapOf" />
+    <option name="LAST_COMMIT_MESSAGE" value="criacao do Testmap e testando mapOf" />
   </component>
 </project>
